@@ -5,20 +5,22 @@ const Header = () => {
   return (
     <header className="bg-brown text-zinc-200">
       <div className="mx-auto flex flex-wrap p-5 items-center">
-        I am the headers epic logo spot
+        <svg width="100" height="50">
+          <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+        </svg>
 
         <nav className="md:ml-auto flex items-center justify-between">
-          <a href className="mr-5 hover:text-white">
-            First Link
+          <a href="/" className="mr-5 hover:text-white">
+            Home Page
           </a>
-          <a href className="mr-5 hover:text-white">
-            Second Link
+          <a href="/page2" className="mr-5 hover:text-white">
+            Second Page
           </a>
-          <a href className="mr-5 hover:text-white">
-            Third Link
+          <a href="/page3" className="mr-5 hover:text-white">
+            Third Page
           </a>
-          <a href className="mr-5 hover:text-white">
-            Fourth Link
+          <a href="/page4" className="mr-5 hover:text-white">
+            Fourth Page
           </a>
         </nav>
 
