@@ -11,16 +11,16 @@ const Header = () => {
 
         <nav className="md:ml-auto flex items-center justify-between">
           <Link href="/">
-            <div className="mr-5 hover:text-white">Home Page</div>
+            <div className="mr-5 hover:text-white hover:cursor-pointer">Home Page</div>
           </Link>
-          <Link href="/page2" className="mr-5 hover:text-white">
-            <div className="mr-5 hover:text-white">Second Page</div>
+          <Link href="/page2">
+            <div className="mr-5 hover:text-white hover:cursor-pointer">Second Page</div>
           </Link>
           <Link href="/page3">
-            <div className="mr-5 hover:text-white">Third Page</div>
+            <div className="mr-5 hover:text-white hover:cursor-pointer">Third Page</div>
           </Link>
           <Link href="/page4">
-            <div className="mr-5 hover:text-white">Fourth Page</div>
+            <div className="mr-5 hover:text-white hover:cursor-pointer">Fourth Page</div>
           </Link>
         </nav>
 
