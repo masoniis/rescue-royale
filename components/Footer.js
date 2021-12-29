@@ -21,7 +21,7 @@ const Footer = () => {
                 <span className="inline-flex mt-0 pt-3">
 
                     {/* Start of new mini-flex: all the icons */}
-                    <Link href="">
+                    <Link href="https://www.google.com/">
                     <a className="text-gray-600">
                         <svg
                             fill="currentColor"
