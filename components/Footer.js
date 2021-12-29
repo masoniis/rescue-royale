@@ -19,7 +19,7 @@ const Footer = () => {
                 <span className="inline-flex mt-0 pt-3">
 
                     {/* Start of new mini-flex: all the icons */}
-                    <a className="text-gray-600" href="https://www.facebook.com/">
+                    {/* <a className="text-gray-600" href="https://www.facebook.com/">
                         <svg
                             fill="currentColor"
                             stroke-linecap="round"
@@ -76,9 +76,10 @@ const Footer = () => {
                             ></path>
                             <circle cx="4" cy="4" r="2" stroke="none"></circle>
                         </svg>
-                    </a>
+                    </a> */}
 
                 </span>
+                        
             </div>
         </footer>
     );
