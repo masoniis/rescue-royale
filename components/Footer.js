@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Footer = () => {
     return (
-        <footer className="bg-zinc-200 text-gray-500 p-6 max-w-auto">
+        <footer className="bg-zinc-200 text-gray-500 p-6">
             <div className="container flex justify-between items-center border-t-2 border-stone-400 px-5 mx-auto transition-all ease-linear duration-1000">
 
                 {/* Flex Item 1 */}
@@ -12,7 +12,7 @@ const Footer = () => {
                     <p className="pr-4 py-1 mt-0 mr-4 border-r border-stone-400">Copyright @ 2022 Mason Inc.</p>
 
                     {/* Mini-flex Item 2 */}
-                    <a className="py-1 mt-0 hover:text-gray-700" href="https://www.google.com/search?q=Trademark+Policy&rlz=1C1ONGR_enUS950US950&sxsrf=AOaemvIAUL3lYdFypXJLMFm66tupIedEjw%3A1640803781407&ei=xa3MYbKfGMv7-Qb5qJSwBA&ved=0ahUKEwjylaW01on1AhXLfd4KHXkUBUYQ4dUDCA4&uact=5&oq=Trademark+Policy&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEEMyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BAgjECc6BwgjEOoCECc6BwgAEMkDEEM6BQgAEJIDOgoIABCxAxDJAxBDOgcIABCxAxBDOggIABCABBCxAzoICAAQgAQQyQM6CwguEIAEEMcBEK8BOgQIABANOgYIABANEB46CAgAEA0QBRAeSgQIQRgASgQIRhgAUABY7xtgkR1oA3ACeACAAYUBiAG_C5IBBDEzLjSYAQCgAQGwAQrAAQE&sclient=gws-wiz">
+                    <a className="py-1 mt-0 hover:text-gray-700" href="">
                         Trademark Policy
                     </a>
                 </div>
