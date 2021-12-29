@@ -19,7 +19,7 @@ const Footer = () => {
                 <span className="inline-flex mt-0 pt-3">
 
                     {/* Start of new mini-flex: all the icons */}
-                    <a className="text-gray-600" href>
+                    <a className="text-gray-600" href="https://www.facebook.com/">
                         <svg
                             fill="currentColor"
                             stroke-linecap="round"
@@ -32,7 +32,7 @@ const Footer = () => {
                         </svg>
                     </a>
 
-                    <a className="ml-3 text-gray-600" href>
+                    <a className="ml-3 text-gray-600" href="https://twitter.com/elonmusk">
                         <svg
                             fill="currentColor"
                             stroke-linecap="round"
@@ -45,7 +45,7 @@ const Footer = () => {
                         </svg>
                     </a>
 
-                    <a className="ml-3 text-gray-600" href>
+                    <a className="ml-3 text-gray-600" href="https://www.instagram.com/">
                         <svg
                             fill="none"
                             stroke="currentColor"
@@ -60,7 +60,7 @@ const Footer = () => {
                         </svg>
                     </a>
 
-                    <a className="ml-3 text-gray-600" href>
+                    <a className="ml-3 text-gray-600" href="https://www.linkedin.com/">
                         <svg
                             fill="currentColor"
                             stroke="currentColor"
