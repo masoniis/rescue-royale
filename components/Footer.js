@@ -2,8 +2,8 @@ import Link from 'next/link'
 
 const Footer = () => {
     return (
-        <footer className="bg-zinc-200 text-gray-500 p-6">
-            <div className="container flex justify-between items-center border-t-2 border-stone-400 px-5 mx-auto transition-all duration-500">
+        <footer className="bg-zinc-200 text-gray-500 p-6 max-w-auto">
+            <div className="container flex justify-between items-center border-t-2 border-stone-400 px-5 mx-auto transition-all ease-linear duration-1000">
 
                 {/* Flex Item 1 */}
                 <div className="flex justify-items-start text-sm pt-3">
