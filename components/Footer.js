@@ -11,9 +11,11 @@ const Footer = () => {
                     {/* Mini-flex Item 1 */}
                     <p className="pr-4 py-1 mt-0 mr-4 border-r border-stone-400">Copyright @ 2022 Mason Inc.</p>
 
-                    {/* Mini-flex Item 2 */}
+                    {/* Mini-flex Item 2, underline from: https://tailwindcomponents.com/component/link-underline-animation */}
                     <a className="py-1 mt-0 hover:text-gray-700" href="">
-                        Trademark Policy
+                        <span className="link link-underline link-underline-black">
+                            Trademark Policy
+                        </span>
                     </a>
                 </div>
 
