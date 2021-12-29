@@ -25,7 +25,7 @@ a {
   background-size: 0 2px;
   background-position: 0 100%;
   background-repeat: no-repeat;
-  transition: background-size .5s ease-in-out;
+  transition: background-size .35s ease-in-out;
 }
 
 .link-underline-black {

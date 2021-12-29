@@ -12,11 +12,13 @@ const Footer = () => {
                     <p className="pr-4 py-1 mt-0 mr-4 border-r border-stone-400">Copyright @ 2022 Mason Inc.</p>
 
                     {/* Mini-flex Item 2, underline from: https://tailwindcomponents.com/component/link-underline-animation */}
-                    <a className="py-1 mt-0 hover:text-gray-700" href="">
-                        <span className="link link-underline link-underline-black">
-                            Trademark Policy
-                        </span>
-                    </a>
+                    <Link href="https://google.com/search?q=Trademark+Policy">
+                        <a className="py-1 mt-0 hover:text-gray-700">
+                            <span className="link link-underline link-underline-black">
+                                Trademark Policy
+                            </span>
+                        </a>
+                    </Link>
                 </div>
 
                 {/* Flex Item 2 */}
@@ -24,7 +26,7 @@ const Footer = () => {
 
                     {/* Start of new mini-flex: all the icons */}
                     <Link href="https://facebook.com/">
-                        <a className="text-gray-600">
+                        <a className="text-gray-500 hover:text-gray-700">
                             <svg
                                 fill="currentColor"
                                 strokeLinecap="round"
@@ -38,7 +40,7 @@ const Footer = () => {
                         </a>
                     </Link>
                     <Link href="https://twitter.com">
-                        <a className="ml-3 text-gray-600">
+                        <a className="ml-3 text-gray-500 hover:text-gray-700">
                             <svg
                                 fill="currentColor"
                                 strokeLinecap="round"
@@ -52,7 +54,7 @@ const Footer = () => {
                         </a>
                     </Link>
                     <Link href="https://instagram.com">
-                        <a className="ml-3 text-gray-600">
+                        <a className="ml-3 text-gray-500 hover:text-gray-700">
                             <svg
                                 fill="none"
                                 stroke="currentColor"
@@ -68,7 +70,7 @@ const Footer = () => {
                         </a>
                     </Link>
                     <Link href="https://linkedin.com">
-                        <a className="ml-3 text-gray-600">
+                        <a className="ml-3 text-gray-500 hover:text-gray-700">
                             <svg
                                 fill="currentColor"
                                 stroke="currentColor"

@@ -1,7 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
+import { useTheme } from 'next-themes'
 
 const Header = () => {
+
+  const {theme, setTheme} = useTheme()
+
   return (
     <header className="bg-zinc-200 text-gray-500 p-6">
       <div className="container flex mx-auto flex-wrap items-center">
@@ -23,6 +27,15 @@ const Header = () => {
           <Link href="/contact-us">
             <div className="mr-5 hover:text-gray-700 hover:cursor-pointer">Contact Us</div>
           </Link>
+          <button
+            aria-label="Toggle Dark Mode"
+            type="button"
+            className="p-3 h-12 w-12 order-2 md:order-3 bg-white dark:bg-black"
+            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+            >
+              Dark Mode
+          </button>
+
         </nav>
 
       </div>
