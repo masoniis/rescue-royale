@@ -1,4 +1,4 @@
-import Link from 'next/Link'
+import Link from 'next/link'
 
 const Footer = () => {
     return (
@@ -21,7 +21,7 @@ const Footer = () => {
                 <span className="inline-flex mt-0 pt-3">
 
                     {/* Start of new mini-flex: all the icons */}
-                    <Link href="https://www.facebook.com/">
+                    <Link href="">
                     <a className="text-gray-600">
                         <svg
                             fill="currentColor"
