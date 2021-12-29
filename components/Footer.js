@@ -1,3 +1,5 @@
+import Link from 'next/Link'
+
 const Footer = () => {
     return (
         <footer className="bg-zinc-200 text-gray-500 p-6">
@@ -19,7 +21,8 @@ const Footer = () => {
                 <span className="inline-flex mt-0 pt-3">
 
                     {/* Start of new mini-flex: all the icons */}
-                    <a className="text-gray-600" href="https://www.facebook.com/">
+                    <Link href="https://www.facebook.com/">
+                    <a className="text-gray-600">
                         <svg
                             fill="currentColor"
                             stroke-linecap="round"
@@ -31,6 +34,7 @@ const Footer = () => {
                             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                         </svg>
                     </a>
+                    </Link>
 
                     {/* <a className="ml-3 text-gray-600" href="https://twitter.com/elonmusk">
                         <svg
