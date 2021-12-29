@@ -8,6 +8,7 @@ const Header = () => {
         {/* <svg width="100" height="50">
           <circle cx="50" cy="50" r="40" stroke="green" fill="yellow" />
         </svg> */}
+        <p>Rescue Royale</p>
 
         <nav className="md:ml-auto flex items-center justify-between">
           <Link href="/">
@@ -19,8 +20,8 @@ const Header = () => {
           <Link href="/page3">
             <div className="mr-5 hover:text-white hover:cursor-pointer">Third Page</div>
           </Link>
-          <Link href="/page4">
-            <div className="mr-5 hover:text-white hover:cursor-pointer">Fourth Page</div>
+          <Link href="/contact-us">
+            <div className="mr-5 hover:text-white hover:cursor-pointer">Contact Us</div>
           </Link>
         </nav>
 
