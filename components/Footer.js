@@ -13,7 +13,7 @@ const Footer = () => {
 
                     {/* Mini-flex Item 2, underline from: https://tailwindcomponents.com/component/link-underline-animation */}
                     <Link href="https://google.com/search?q=Trademark+Policy">
-                        <a className="py-1 mt-0 hover:text-gray-700">
+                        <a className="py-1 mt-0 hover:text-gray-700 dark:hover:text-gray-100">
                             <span className="link link-underline link-underline-black">
                                 Trademark Policy
                             </span>

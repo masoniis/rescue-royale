@@ -29,7 +29,7 @@ a {
 }
 
 .link-underline-black {
-  background-image: linear-gradient(transparent, transparent), linear-gradient(rgb(40, 65, 202), rgb(25, 67, 180))
+  background-image: linear-gradient(transparent, transparent), linear-gradient(rgb(197, 40, 202), rgb(25, 67, 180))
 }
 
 .link-underline:hover {
