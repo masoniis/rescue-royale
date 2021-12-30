@@ -7,7 +7,7 @@ const Header = () => {
   const {theme, setTheme} = useTheme()
 
   return (
-    <header className="bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text p-6">
+    <header className="bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text transition-colors duration-500 p-6">
       <div className="container flex mx-auto flex-wrap items-center">
 
         {/* Flex Item 1 */}
