@@ -4,9 +4,9 @@ import {ThemeProvider} from 'next-themes'
 
 function MyApp({ Component, pageProps }) {
   return (
-      <ThemeProvider attribuute="class">
+      <ThemeProvider enableSystem={true} attribute='class'>
         <Layout>
-        <Component {...pageProps} />
+          <Component {...pageProps} />
         </Layout>
       </ThemeProvider>
   )

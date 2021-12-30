@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Footer = () => {
     return (
-        <footer className="bg-zinc-200 text-gray-500 p-6">
+        <footer className="bg-zinc-200 dark:bg-gray-700 text-gray-500 dark:text-gray-300 p-6">
             <div className="container flex justify-between items-center border-t-2 border-stone-400 px-5 mx-auto transition-all ease-linear duration-1000">
 
                 {/* Flex Item 1 */}
@@ -26,7 +26,7 @@ const Footer = () => {
 
                     {/* Start of new mini-flex: all the icons */}
                     <Link href="https://facebook.com/">
-                        <a className="text-gray-500 hover:text-gray-700">
+                        <a className="text-gray-500 dark:text-gray-300 hover:text-gray-700 dark:hover:text-gray-400">
                             <svg
                                 fill="currentColor"
                                 strokeLinecap="round"
@@ -40,7 +40,7 @@ const Footer = () => {
                         </a>
                     </Link>
                     <Link href="https://twitter.com">
-                        <a className="ml-3 text-gray-500 hover:text-gray-700">
+                        <a className="ml-3 text-gray-500 dark:text-gray-300 hover:text-gray-700">
                             <svg
                                 fill="currentColor"
                                 strokeLinecap="round"
@@ -54,7 +54,7 @@ const Footer = () => {
                         </a>
                     </Link>
                     <Link href="https://instagram.com">
-                        <a className="ml-3 text-gray-500 hover:text-gray-700">
+                        <a className="ml-3 text-gray-500 dark:text-gray-300 hover:text-gray-700">
                             <svg
                                 fill="none"
                                 stroke="currentColor"
@@ -70,7 +70,7 @@ const Footer = () => {
                         </a>
                     </Link>
                     <Link href="https://linkedin.com">
-                        <a className="ml-3 text-gray-500 hover:text-gray-700">
+                        <a className="ml-3 text-gray-500 dark:text-gray-300 hover:text-gray-700">
                             <svg
                                 fill="currentColor"
                                 stroke="currentColor"

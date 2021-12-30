@@ -30,7 +30,7 @@ const Header = () => {
           <button
             aria-label="Toggle Dark Mode"
             type="button"
-            className="p-3 h-12 w-12 order-2 md:order-3 bg-white dark:bg-black"
+            className="p-3 h-12 w-12 order-2 md:order-3 bg-white"
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
             >
               Dark Mode
