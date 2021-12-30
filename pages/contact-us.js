@@ -1,6 +1,6 @@
 const ContactUs = () => {
     return (
-        <body className="min-h-screen text-green-900 bg-zinc-200 dark:bg-gray-700 text-center">
+        <body className="bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text text-center">
             <div>
                 <h1>
                     I am the contact us page!

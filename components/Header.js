@@ -7,7 +7,7 @@ const Header = () => {
   const {theme, setTheme} = useTheme()
 
   return (
-    <header className="bg-zinc-200 text-gray-500 p-6">
+    <header className="bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text p-6">
       <div className="container flex mx-auto flex-wrap items-center">
 
         {/* Flex Item 1 */}
@@ -16,16 +16,16 @@ const Header = () => {
         {/* Flex Item 2 */}
         <nav className="md:ml-auto flex items-center justify-between">
           <Link href="/">
-            <div className="mr-5 hover:text-gray-700 hover:cursor-pointer">Home Page</div>
+            <div className="mr-5 hover:text-light-hover dark:hover:text-dark-hover hover:cursor-pointer">Home Page</div>
           </Link>
           <Link href="/page2">
-            <div className="mr-5 hover:text-gray-700 hover:cursor-pointer">Second Page</div>
+            <div className="mr-5 hover:text-light-hover dark:hover:text-dark-hover hover:cursor-pointer">Second Page</div>
           </Link>
           <Link href="/page3">
-            <div className="mr-5 hover:text-gray-700 hover:cursor-pointer">Third Page</div>
+            <div className="mr-5 hover:text-light-hover dark:hover:text-dark-hover hover:cursor-pointer">Third Page</div>
           </Link>
           <Link href="/contact-us">
-            <div className="mr-5 hover:text-gray-700 hover:cursor-pointer">Contact Us</div>
+            <div className="mr-5 hover:text-light-hover dark:hover:text-dark-hover hover:cursor-pointer">Contact Us</div>
           </Link>
           <button
             aria-label="Toggle Dark Mode"

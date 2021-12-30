@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Footer = () => {
     return (
-        <footer className="bg-zinc-200 dark:bg-gray-700 text-gray-500 dark:text-gray-300 p-6">
+        <footer className="bg-light-bg dark:bg-dark-bg text-light-text dark:text-gray-300 p-6">
             <div className="container flex justify-between items-center border-t-2 border-stone-400 px-5 mx-auto transition-all ease-linear duration-1000">
 
                 {/* Flex Item 1 */}
@@ -13,7 +13,7 @@ const Footer = () => {
 
                     {/* Mini-flex Item 2, underline from: https://tailwindcomponents.com/component/link-underline-animation */}
                     <Link href="https://google.com/search?q=Trademark+Policy">
-                        <a className="py-1 mt-0 hover:text-gray-700 dark:hover:text-gray-100 link link-underline link-underline-black">
+                        <a className="py-1 mt-0 hover:text-light-hover dark:hover:text-dark-hover link link-underline link-underline-black">
                             <span className="">
                                 Trademark Policy
                             </span>
@@ -26,7 +26,7 @@ const Footer = () => {
 
                     {/* Start of new mini-flex: all the icons */}
                     <Link href="https://facebook.com/">
-                        <a className="text-gray-500 dark:text-gray-300 hover:text-gray-700 dark:hover:text-gray-100 link">
+                        <a className="text-light-text hover:text-light-hover dark:text-dark-text dark:hover:text-dark-hover link">
                             <svg
                                 fill="currentColor"
                                 strokeLinecap="round"
@@ -40,7 +40,7 @@ const Footer = () => {
                         </a>
                     </Link>
                     <Link href="https://twitter.com">
-                        <a className="ml-3 text-gray-500 dark:text-gray-300 hover:text-gray-700 dark:hover:text-gray-100 link">
+                        <a className="ml-3 text-light-text hover:text-light-hover dark:text-dark-text dark:hover:text-dark-hover link">
                             <svg
                                 fill="currentColor"
                                 strokeLinecap="round"
@@ -54,7 +54,7 @@ const Footer = () => {
                         </a>
                     </Link>
                     <Link href="https://instagram.com">
-                        <a className="ml-3 text-gray-500 dark:text-gray-300 hover:text-gray-700 dark:hover:text-gray-100 link">
+                        <a className="ml-3 text-light-text hover:text-light-hover dark:text-dark-text dark:hover:text-dark-hover link">
                             <svg
                                 fill="none"
                                 stroke="currentColor"
@@ -70,7 +70,7 @@ const Footer = () => {
                         </a>
                     </Link>
                     <Link href="https://linkedin.com">
-                        <a className="ml-3 text-gray-500 dark:text-gray-300 hover:text-gray-700 dark:hover:text-gray-100 link">
+                        <a className="ml-3 text-light-text hover:text-light-hover dark:text-dark-text dark:hover:text-dark-hover link">
                             <svg
                                 fill="currentColor"
                                 stroke="currentColor"
